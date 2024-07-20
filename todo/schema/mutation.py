@@ -2,7 +2,6 @@ import graphene
 from .types import TodoItemType
 from ..models import TodoItem
 
-
 class CreateTodoItem(graphene.Mutation):
     class Arguments:
         title = graphene.String(required=True)
