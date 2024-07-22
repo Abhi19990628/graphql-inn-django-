@@ -5,6 +5,5 @@ class TodoItem(models.Model):
     completed = models.BooleanField(default=False)
 
     #use becouse it comp
-
     def __str__(self):
         return self.title
