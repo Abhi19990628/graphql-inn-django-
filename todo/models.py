@@ -4,6 +4,9 @@ class TodoItem(models.Model):
     title = models.CharField(max_length=255)
     completed = models.BooleanField(default=False)
 
+
+
+    
     #use becouse it comp
     def __str__(self):
         return self.title
